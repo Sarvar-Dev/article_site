@@ -1,28 +1,45 @@
 body{
     font-family: 'Bebas Neue', sans-serif;
+    margin:0;
+    padding: 0;
 }
-.heading{
-    display: flex;
+
+.main-content{
+    display: flex;  
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-grow: 1;
     
 }
 .hero{
     background-image:url("../img/left-bg.png");
-    width:50%;
+    width:100%;
+    max-width: 600px;
     height: 782px;
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center bottom;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 24px;
 }
 .hero-text{
-   font-size: 24px;
-   line-height: 28px;
-   letter-spacing: 2px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 24px;
 }
 .hero-button{
     background-color: #1E90FF;
     color: #fff;
     padding: 12px 24px;
     text-decoration: none;
+    
 }
 .hero-button-text{
     font-size: 16px;
@@ -46,8 +63,10 @@ body{
     
 }
 .right-hero {
-    max-width: 492px;
+    max-width: 750px;
     padding-left: 54px;
+    padding-top: 54px;
+    
 }
 .right-hero-text{
     font-size: 24px;
@@ -102,4 +121,19 @@ body{
     background-repeat:no-repeat;
     content:"";
     background-size: contain;
+}
+.right-hero-button{
+    margin-top:23px;
+    
+}
+.right-hero-button-link{
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 209px;
+    background-color:#1E90FF;
+    color:#fff;
+    border-radius:4px;
+    text-decoration: none;
 }
