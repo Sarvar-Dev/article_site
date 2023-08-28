@@ -1,0 +1,105 @@
+body{
+    font-family: 'Bebas Neue', sans-serif;
+}
+.heading{
+    display: flex;
+    
+}
+.hero{
+    background-image:url("../img/left-bg.png");
+    width:50%;
+    height: 782px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center bottom;
+}
+.hero-text{
+   font-size: 24px;
+   line-height: 28px;
+   letter-spacing: 2px;
+}
+.hero-button{
+    background-color: #1E90FF;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+.hero-button-text{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+
+}
+.hero-button{   
+    align-items: center;
+    
+
+}
+.hero-button::before{
+    content:"";
+    background-image:url("../img/icon/Vector.svg");
+    width: 20px;
+    height: 19px;
+    display: inline-block   ;
+    padding-right: 12px;
+    background-repeat:no-repeat;
+    
+}
+.right-hero {
+    max-width: 492px;
+    padding-left: 54px;
+}
+.right-hero-text{
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color:#222;
+    font-weight: 400;
+}
+.right-hero-section {
+    display: flex;
+}
+
+.section-right{
+    padding-left:16px;
+}
+.section-right-text {
+    font-weight: 400;
+    font-size:18px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    margin-bottom:0;
+}
+.section-right-text-icons{
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    
+    
+}
+.section-right-icon-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color:#888;
+    padding-right: 44px;
+    
+
+}
+.section-right-icon-img::before{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image:url("../img/icon/icon-clock 1.png");
+    background-repeat:no-repeat;
+    content:"";
+    background-size: contain;
+}
+.section-right-icon-img-eye::before{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image:url("../img/icon/icon-kuz.png");
+    background-repeat:no-repeat;
+    content:"";
+    background-size: contain;
+}
